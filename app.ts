@@ -8,6 +8,7 @@ export { } // modular approach // always use during ts programming in .ts file
 // Lile js we can use var, let and const to make variable 
 // Type Assignment are two types : Explict and implicit
 // Explicit type assignment are easier to read and more intentional.
+console.log("hello");
 let firstName: string = "Dylan";
 // Implicit - TypeScript will "guess" the type, based on the assigned value.
 let lastName = "Dylan";
