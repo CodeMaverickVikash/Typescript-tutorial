@@ -1,4 +1,4 @@
-Install typescript using "npm i -g typescript"
+Install typescript using "npm i -D typescript"
 Check TS installed or not using "tsc -v"
 
 How to run TS code?

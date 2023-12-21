@@ -9,16 +9,8 @@
     "config": "tsc --init",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VikashRepo123/Typescript-tutorial.git"
-  },
   "author": "Vikash",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/VikashRepo123/Typescript-tutorial/issues"
-  },
-  "homepage": "https://github.com/VikashRepo123/Typescript-tutorial#readme",
   "devDependencies": {
     "typescript": "^5.2.2"
   }
