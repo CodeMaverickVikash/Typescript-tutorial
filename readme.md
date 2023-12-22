@@ -18,21 +18,20 @@ TypeScript is a superset of JavaScript that adds static typing and other feature
 - **Type Inference or Implicit type assignment**:
     - TypeScript has a powerful type inference system that can automatically deduce the types of variables and expressions.
 - **Union and Intersection Types**:
-    - Union types allow a variable to have multiple types, providing flexibility.
-    - Intersection types combine multiple types into one.
+    - A union type allows a variable to have multiple types. It is expressed using the `| (pipe)` symbol.
+    - An intersection type combines multiple types into a single type. It is expressed using the `& (ampersand`) symbol.
 - **Type Assertion**:
     - Allows developers to tell the compiler to treat a value as a specific type.
-- **Null and Undefined Types**:
-    - Helps catch potential null or undefined errors by introducing null and undefined as types.
 - **Decorators**:
     - Provides a way to add metadata and modify the behavior of classes and class members.
+    - It is used to extend the functionality of classes and methods.
+    - There is three types of Decorators: class, method, and property Decorators.
 - **Namespace**:
     - Enables developers to group related code into a named namespace, preventing naming collisions.
+    - Namespaces provide a way to organize and encapsulate code. Namespaces are often used to prevent naming conflicts in larger codebases.
 - **Tuples**:
-    - Allows the definition of arrays with a fixed number of elements and specific types for each element.
-- **Duck Typing**:
-    - TypeScript relies on a structural typing system, allowing objects to be considered compatible based on their structure, not just explicit type declarations.
+    - A tuple is a data structure that allows you to define an ordered collection of elements, where each element can have a different data type. Tuples are similar to arrays, but they have a fixed length, and the types of their elements are known at compile time.
 - **Declaration Files**:
     - Allows the use of external libraries written in JavaScript by providing type declarations in .d.ts files.
 - **String Literal Types**:
-    - Enables the definition of string types with specific values.
+    - String Literal Types in TypeScript allow you to define a specific set of string values that a variable, parameter, or property can have. This feature enhances type safety and code clarity by restricting the possible values to a predefined set
