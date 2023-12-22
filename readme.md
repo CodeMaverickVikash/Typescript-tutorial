@@ -22,6 +22,12 @@ TypeScript is a superset of JavaScript that adds static typing and other feature
     - An intersection type combines multiple types into a single type. It is expressed using the `& (ampersand`) symbol.
 - **Type Assertion**:
     - Allows developers to tell the compiler to treat a value as a specific type.
+- **Tuples**:
+    - A tuple is a data structure that allows you to define an ordered collection of elements, where each element can have a different data type. Tuples are similar to arrays, but they have a fixed length, and the types of their elements are known at compile time.
+- **Declaration Files**:
+    - Allows the use of external libraries written in JavaScript by providing type declarations in .d.ts files.
+- **String Literal Types**:
+    - String Literal Types in TypeScript allow you to define a specific set of string values that a variable, parameter, or property can have. This feature enhances type safety and code clarity by restricting the possible values to a predefined set
 - **Decorators**:
     - Provides a way to add metadata and modify the behavior of classes and class members.
     - It is used to extend the functionality of classes and methods.
@@ -29,9 +35,3 @@ TypeScript is a superset of JavaScript that adds static typing and other feature
 - **Namespace**:
     - Enables developers to group related code into a named namespace, preventing naming collisions.
     - Namespaces provide a way to organize and encapsulate code. Namespaces are often used to prevent naming conflicts in larger codebases.
-- **Tuples**:
-    - A tuple is a data structure that allows you to define an ordered collection of elements, where each element can have a different data type. Tuples are similar to arrays, but they have a fixed length, and the types of their elements are known at compile time.
-- **Declaration Files**:
-    - Allows the use of external libraries written in JavaScript by providing type declarations in .d.ts files.
-- **String Literal Types**:
-    - String Literal Types in TypeScript allow you to define a specific set of string values that a variable, parameter, or property can have. This feature enhances type safety and code clarity by restricting the possible values to a predefined set
