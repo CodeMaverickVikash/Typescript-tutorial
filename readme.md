@@ -12,9 +12,6 @@ TypeScript is a superset of JavaScript that adds static typing and other feature
 - **Generics**:
     - Allows the creation of reusable components with the ability to work with any data type.
     - Enhances code flexibility and type safety.
-- **Modules**:
-    - Supports the organization of code into reusable and maintainable modules.
-    - Helps in managing code dependencies.
 - **Type Inference or Implicit type assignment**:
     - TypeScript has a powerful type inference system that can automatically deduce the types of variables and expressions.
 - **Union and Intersection Types**:
@@ -24,10 +21,16 @@ TypeScript is a superset of JavaScript that adds static typing and other feature
     - Allows developers to tell the compiler to treat a value as a specific type.
 - **Tuples**:
     - A tuple is a data structure that allows you to define an ordered collection of elements, where each element can have a different data type. Tuples are similar to arrays, but they have a fixed length, and the types of their elements are known at compile time.
-- **Declaration Files**:
-    - Allows the use of external libraries written in JavaScript by providing type declarations in .d.ts files.
 - **String Literal Types**:
     - String Literal Types in TypeScript allow you to define a specific set of string values that a variable, parameter, or property can have. This feature enhances type safety and code clarity by restricting the possible values to a predefined set
+- **Modules**:
+    - Supports the organization of code into reusable and maintainable modules.
+    - The file created in typescript has global access, which means that variables declared in one file are easily accessed in another file.
+    - This global nature can cause code conflicts and can cause issues with execution at run-time
+    - We  have export and import module functionality which can be used to avoid global variable and function conflicts.
+    - This feature is available in the javascript es6 release and also supported in typescript.
+- **Declaration Files**:
+    - Allows the use of external libraries written in JavaScript by providing type declarations in .d.ts files.
 - **Decorators**:
     - Provides a way to add metadata and modify the behavior of classes and class members.
     - It is used to extend the functionality of classes and methods.
