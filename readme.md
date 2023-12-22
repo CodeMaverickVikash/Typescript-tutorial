@@ -1,11 +1,41 @@
-Install typescript using "npm i -D typescript"
-Check TS installed or not using "tsc -v"
-
-How to run TS code?
-By using typescript compiler "tsc fileName.ts" or "tsc fileName.ts --watch"
-
-
-What is duplicate identifier issue? ans: .ts and .js file in same dir, to resolve it use modular approach
-
-// configuring typescript compiler
-to create typescript configuration file run "tsc --init"
+# TypeScript learner project
+TypeScript is a superset of JavaScript that adds static typing and other features to help developers write more maintainable and scalable code. Here are some of the key features of TypeScript. Below are the key features of TypeScript:
+- **Static Typing**:
+    - TypeScript introduces static typing, allowing developers to specify the types of variables, function parameters, and return values.
+    - Helps catch type-related errors during development rather than at runtime.
+- **Interfaces**:
+    - Allows the definition of custom data structures using interfaces.
+    - Helps in enforcing a contract between different parts of the code.
+- **Classes**:
+    - Supports object-oriented programming with the introduction of classes and interfaces.
+    - Provides features like inheritance, encapsulation, and abstraction.
+- **Enums**:
+    - Enables the creation of named constant values.
+    - Enhances code readability and maintainability.
+- **Generics**:
+    - Allows the creation of reusable components with the ability to work with any data type.
+    - Enhances code flexibility and type safety.
+- **Modules**:
+    - Supports the organization of code into reusable and maintainable modules.
+    - Helps in managing code dependencies.
+- **Type Inference**:
+    - TypeScript has a powerful type inference system that can automatically deduce the types of variables and expressions.
+- **Union and Intersection Types**:
+    - Union types allow a variable to have multiple types, providing flexibility.
+    - Intersection types combine multiple types into one.
+- **Type Assertion**:
+    - Allows developers to tell the compiler to treat a value as a specific type.
+- **Null and Undefined Types**:
+    - Helps catch potential null or undefined errors by introducing null and undefined as types.
+- **Decorators**:
+    - Provides a way to add metadata and modify the behavior of classes and class members.
+- **Namespace**:
+    - Enables developers to group related code into a named namespace, preventing naming collisions.
+- **Tuples**:
+    - Allows the definition of arrays with a fixed number of elements and specific types for each element.
+- **Duck Typing**:
+    - TypeScript relies on a structural typing system, allowing objects to be considered compatible based on their structure, not just explicit type declarations.
+- **Declaration Files**:
+    - Allows the use of external libraries written in JavaScript by providing type declarations in .d.ts files.
+- **String Literal Types**:
+    - Enables the definition of string types with specific values.
