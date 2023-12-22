@@ -6,9 +6,6 @@ TypeScript is a superset of JavaScript that adds static typing and other feature
 - **Interfaces**:
     - Allows the definition of custom data structures using interfaces.
     - Helps in enforcing a contract between different parts of the code.
-- **Classes**:
-    - Supports object-oriented programming with the introduction of classes and interfaces.
-    - Provides features like inheritance, encapsulation, and abstraction.
 - **Enums**:
     - Enables the creation of named constant values.
     - Enhances code readability and maintainability.
