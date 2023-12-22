@@ -15,7 +15,7 @@ TypeScript is a superset of JavaScript that adds static typing and other feature
 - **Modules**:
     - Supports the organization of code into reusable and maintainable modules.
     - Helps in managing code dependencies.
-- **Type Inference**:
+- **Type Inference or Implicit type assignment**:
     - TypeScript has a powerful type inference system that can automatically deduce the types of variables and expressions.
 - **Union and Intersection Types**:
     - Union types allow a variable to have multiple types, providing flexibility.
