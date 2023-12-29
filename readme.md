@@ -1,4 +1,4 @@
-# TypeScript learner project
+# TypeScript learning project
 TypeScript is a superset of JavaScript that adds static typing and other features to help developers write more maintainable and scalable code. Here are some of the key features of TypeScript. Below are the key features of TypeScript:
 - **Static Typing**:
     - TypeScript introduces static typing, allowing developers to specify the types of variables, function parameters, and return values.
