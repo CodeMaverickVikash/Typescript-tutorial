@@ -30,7 +30,7 @@ var arr: readonly number[] = [1, 2, 3, 4]; // readonly mode arr created
 // arr.push(4); // ERROR: 'push' does not exist on type 'readonly'
 console.log({ names, arr });
 
-// ------------------------------------------------- Function -----------------------------------------------
+// ------------------------------------------------- Function ---------------------------------------------
 // multiply() accepts two para of number and return type is also number
 function multiply(a: number, b: number): number {
   return a * b;

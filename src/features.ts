@@ -2,6 +2,7 @@
 const namevar: string = "vikash2";
 
 // -------------------------------- Interfaces - custom data structures/data type -------------------------
+// Very useful to increase to code readability 
 interface Employee {
   id: number;
   name: string;
@@ -19,6 +20,7 @@ const obj: Employee = {
 };
 
 // ------------------------------------------- Enums - to make constant -----------------------------------------
+// Useful to write clean and maintainable code
 enum AppConstant {
   // urls
   HOME_ROUTE_URL = "home/",
@@ -55,16 +57,16 @@ result2 = "hello"; // Valid
 // result = true;  // Error: Type 'boolean' is not assignable to type 'number | string'.
 
 // Intersection type - An intersection type combines multiple types into a single type. It is expressed using the & (ampersand) symbol.
-interface Car {
+interface Car { // one type 
   brand: string;
   model: string;
 }
 
-interface Electric {
+interface Electric { // second type
   batteryType: string;
 }
 
-type ElectricCar = Car & Electric;
+type ElectricCar = Car & Electric; // created one type
 
 const myCar: ElectricCar = {
   brand: "Tesla",
@@ -74,13 +76,14 @@ const myCar: ElectricCar = {
 
 // -------------------------------------------- Type Assertion -------------------------------------------
 /*
+ * Type assertion is a technique that informs the compiler about the type of a variable. Type assertion is similar to typecasting but it doesn’t reconstruct code. You can use type assertion to specify a value’s type and tell the compiler not to deduce it. When we want to change a variable from one type to another such as any to number etc, we use Type assertion. 
  * There are two ways to perform type assertion in TypeScript:
  * 1. Angle Bracket Syntax
  * 2. As Keyword:
  */
 
 let variable: any = "This is a string";
-let strLength: number = (<string>variable).length;
+let strLength: number = (<string>variable).length; // Type assertion
 
 console.log(strLength); // Prints the length of the string
 
@@ -93,6 +96,10 @@ let variable3: any = 10;
 let strLength3: number = (variable as string).length; // This will not cause a compile-time error, but it will result in a runtime error
 
 // ------------------------------------------------ Tuples -------------------------------------------------
+/**
+ * A tuple is a data structure which is similar to arrays but tuples enable you to define a fixed number of elements with specific types in a specific order.
+ * It allows/enables us to define a fixed number of elements with specific types in a specific order.
+ */
 // Declare a tuple type
 let person: [string, number, boolean];
 
@@ -106,7 +113,11 @@ const isActive: boolean = person[2];
 
 console.log(`Name: ${name2}, Age: ${age}, IsActive: ${isActive}`);
 
-// ----------------------------------------------- String Literal Types -------------------------------------
+// ----------------------------------------------- String Literal Types ------------------------------------
+/**
+ * String literal types allow you to specify that a string must have a specific, exact value. This provides a way to define a set of allowed string values for a particular variable or parameter
+ * Another way - Allows us to set collection of string values for a particular variable or parameter
+ */
 // Define a type with string literal values
 type Direction = "North" | "South" | "East" | "West";
 
